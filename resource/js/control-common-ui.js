@@ -195,7 +195,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('.sortable-table-rows tbody').sortable({
 		items: 'tr',
-		cancel: '.status-inactive',
+		cancel: '.sortable-inactive',
 	    opacity: 0.5,
 	    placeholder: 'sortable-table-rows-placeholer',
 	    helper: fixWidthHelper

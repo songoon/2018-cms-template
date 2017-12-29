@@ -685,10 +685,7 @@ input:checked + .switch-slider:before {
 .sortable > li:hover {cursor: move; background:#cfedfc;} /* ul에 적용 */
 .sortable-table-rows tbody tr:hover {cursor: move; background:#cfedfc;} /* table에 적용 */
 .sortable-table-rows-placeholer {background:#cfedfc;}
-
-.sortable-table-rows .status-inactive {background:#eee;}
-.sortable-table-rows .status-inactive:hover {background:#eee; cursor: not-allowed;}
-.sortable-table-rows .status-inactive td {color:#888;}
+.sortable-table-rows .sortable-inactive:hover {background:#eee; cursor: not-allowed;}
 
 /* pure style */
 .pure-ul {list-style-type: square; margin-bottom: 1.0rem;}
