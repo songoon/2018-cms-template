@@ -71,12 +71,14 @@ $('.gnb-search-switch-toggle').click(function(){
 // gnb-menu 2d-slide
 $(document).ready(function(){
     $('ul.gnb-menu-2d').hide();
-	$('ul.gnb-menu-1d li').hover(function(){
-	    $('ul:not(:animated)',this).slideDown('fast');
+	$('ul.gnb-menu-1d li').hover(
+		function(){
+			$('ul:not(:animated)',this).slideDown('fast');
 		},
 		function(){
-		   $('ul',this).slideUp('fast');
-		});
+			$('ul',this).slideUp('fast');
+		}
+	);
 });
 
 //------------------ #nav-sidebar ------------------// 
